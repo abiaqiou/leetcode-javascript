@@ -1,4 +1,4 @@
-const lengthOfLastWord = require('../problems/0058_length_of_last_word')
+const lengthOfLastWord = require('../../problems/string/0058_length_of_last_word')
 
 test('0058 lengthOfLastWord test 01', () => {
   const s = 'Hello World'

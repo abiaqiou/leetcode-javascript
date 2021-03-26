@@ -1,4 +1,4 @@
-const strStr = require('../problems/0028_implement_strstr')
+const strStr = require('../../problems/string/0028_implement_strstr')
 
 test('0028 strStr test 01', () => {
   const result = strStr('hello', 'll')

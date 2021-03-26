@@ -1,4 +1,4 @@
-const countAndSay = require('../problems/0038_count_and_say')
+const countAndSay = require('../../problems/string/0038_count_and_say')
 
 test('0038 countAndSay test 01', () => {
   const result = countAndSay(1)

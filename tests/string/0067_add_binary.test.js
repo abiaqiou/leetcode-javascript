@@ -1,4 +1,4 @@
-const addBinary = require('../problems/0067_add_binary')
+const addBinary = require('../../problems/string/0067_add_binary')
 
 test('0067 addBinary test 01', () => {
   const result = addBinary('11', '1')
