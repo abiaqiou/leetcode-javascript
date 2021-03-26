@@ -1,4 +1,4 @@
-const plusOne = require('../problems/0066_plus_one')
+const plusOne = require('../../problems/array/0066_plus_one')
 
 test('0066 plusOne test 01', () => {
   let a = [1, 2, 3]

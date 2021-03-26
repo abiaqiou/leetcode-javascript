@@ -1,4 +1,4 @@
-const merge = require('../problems/0088_merge_sorted_array')
+const merge = require('../../problems/array/0088_merge_sorted_array')
 
 test('0088 merge test 01', () => {
   let nums1 = [1, 2, 3, 0, 0, 0]

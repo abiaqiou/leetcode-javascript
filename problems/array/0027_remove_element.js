@@ -51,15 +51,15 @@ for (int i = 0; i < len; i++) {
 
 // my solution
 const removeElement = (nums, val) => {
-    let index = 0
-    for (let i = 0; i < nums.length; i++) {
-        let n = nums[i]
-        if (n !== val) {
-            nums[index] = n
-            index += 1
-        }
+  let index = 0
+  for (let i = 0; i < nums.length; i++) {
+    let n = nums[i]
+    if (n !== val) {
+      nums[index] = n
+      index += 1
     }
-    return index
+  }
+  return index
 }
 
 module.exports = removeElement

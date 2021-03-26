@@ -45,17 +45,17 @@ for (int i = 0; i < len; i++) {
 
 // my solution
 const removeDuplicates = (nums) => {
-    let index = 0
-    let current
-    for (let i = 0; i < nums.length; i++) {
-        let n = nums[i]
-        if (n !== current) {
-            nums[index] = n
-            current = n
-            index += 1
-        }
+  let index = 0
+  let current
+  for (let i = 0; i < nums.length; i++) {
+    let n = nums[i]
+    if (n !== current) {
+      nums[index] = n
+      current = n
+      index += 1
     }
-    return index
+  }
+  return index
 }
 
 module.exports = removeDuplicates

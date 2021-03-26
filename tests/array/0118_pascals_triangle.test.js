@@ -1,4 +1,4 @@
-const generate = require('../problems/0118_pascals_triangle')
+const generate = require('../../problems/array/0118_pascals_triangle')
 
 test('0118 generate test 01', () => {
   const result = generate(1)

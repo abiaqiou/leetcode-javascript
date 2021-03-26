@@ -1,4 +1,4 @@
-const searchInsert = require('../problems/0035_search_insert_position')
+const searchInsert = require('../../problems/array/0035_search_insert_position')
 
 test('0035 searchInsert test 01', () => {
   const result = searchInsert([1, 3, 5, 6], 5)
