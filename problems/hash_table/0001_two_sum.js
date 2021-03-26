@@ -36,15 +36,15 @@
 
 // my solution
 const twoSum = (nums, target) => {
-    let temp = {}
-    for (let i = 0; i < nums.length; i++) {
-        const n = nums[i]
-        if (n in temp) {
-            return [temp[n], i]
-        } else {
-            temp[target - n] = i
-        }
+  let temp = {}
+  for (let i = 0; i < nums.length; i++) {
+    const n = nums[i]
+    if (n in temp) {
+      return [temp[n], i]
+    } else {
+      temp[target - n] = i
     }
+  }
 }
 
 module.exports = twoSum
