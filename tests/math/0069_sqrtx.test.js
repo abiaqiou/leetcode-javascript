@@ -1,4 +1,4 @@
-const mySqrt = require('../problems/0069_sqrtx')
+const mySqrt = require('../../problems/math/0069_sqrtx')
 
 test('0069 mySqrt test 01', () => {
   const result = mySqrt(4)
