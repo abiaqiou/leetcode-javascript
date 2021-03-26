@@ -35,29 +35,29 @@
 
 // my solution
 const reversedStrFromNum = (num) => {
-    const s = String(num)
-    let r = ''
-    for (let i = 0; i < s.length; i++) {
-        const char = s[s.length - i - 1];
-        r += char
-    }
-    return r
+  const s = String(num)
+  let r = ''
+  for (let i = 0; i < s.length; i++) {
+    const char = s[s.length - i - 1]
+    r += char
+  }
+  return r
 }
 
 const reverse = (x) => {
-    const max = Math.pow(2, 31)
-    let s = ''
-    if (x < 0) {
-        s = `-${reversedStrFromNum(-x)}`
-    } else {
-        s = reversedStrFromNum(x)
-    }
-    let n = Number(s)
-    if (n < -max || n > max - 1 || n === 0) {
-        return 0
-    } else {
-        return n
-    }
+  const max = Math.pow(2, 31)
+  let s = ''
+  if (x < 0) {
+    s = `-${reversedStrFromNum(-x)}`
+  } else {
+    s = reversedStrFromNum(x)
+  }
+  let n = Number(s)
+  if (n < -max || n > max - 1 || n === 0) {
+    return 0
+  } else {
+    return n
+  }
 }
 
 module.exports = reverse

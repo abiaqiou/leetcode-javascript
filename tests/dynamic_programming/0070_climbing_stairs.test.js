@@ -1,4 +1,4 @@
-const climbStairs = require('../problems/0070_climbing_stairs')
+const climbStairs = require('../../problems/dynamic_programming/0070_climbing_stairs')
 
 test('0070 climbStairs test 01', () => {
   const result = climbStairs(1)

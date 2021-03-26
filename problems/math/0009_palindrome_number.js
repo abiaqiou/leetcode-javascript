@@ -39,19 +39,19 @@
 
 // my solution
 const isPalindrome = (x) => {
-    if (x < 0) {
+  if (x < 0) {
+    return false
+  } else {
+    let s = String(x)
+    for (let i = 0; i < s.length / 2; i++) {
+      let head = s[i]
+      let tail = s[s.length - i - 1]
+      if (head !== tail) {
         return false
-    } else {
-        let s = String(x)
-        for (let i = 0; i < s.length / 2; i++) {
-            let head = s[i];
-            let tail = s[s.length - i - 1]
-            if (head !== tail) {
-                return false
-            }
-        }
-        return true
+      }
     }
+    return true
+  }
 }
 
 module.exports = isPalindrome
